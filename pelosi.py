@@ -5,7 +5,8 @@ import pandas as pd
 zip_file_url = 'https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2021FD.ZIP'
 pdf_file_url = 'https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/'
 ifttt_url = 'https://maker.ifttt.com/trigger/pelosi_monitor/with/key/bVGEDkrCumRST4bL2kYcoC'
-csv_path = 'last_data.csv'
+csv_path = '/root/pelosi-monitor/last_data.csv'
+
 
 doc_list = {'date':[], 'doc':[]}
 last_data_len = 0
