@@ -19,7 +19,7 @@ with open(zipfile_name, 'wb') as f:
 with zipfile.ZipFile(zipfile_name) as z:
     z.extractall('.')
 
-with open('/root/pelosi-monitor/2022FD.txt') as txt_file:
+with open('2022FD.txt') as txt_file:
     for line in csv.reader(txt_file, delimiter='\t'):
         if line[1] == 'Pelosi':
             doc_list['date'].append(line[7])
